@@ -1,0 +1,12 @@
+.main-wrapper {
+  height: 100vh;
+  padding: 30px;
+}
+
+.background-slide-in-area {
+  background-color: #282c34;
+  border: solid 2px #61dafb;
+  border-radius: 5px;
+  padding: 20px 40px;
+  display: flex;
+}

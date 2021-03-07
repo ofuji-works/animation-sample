@@ -1,0 +1,51 @@
+h1 {
+  margin: 0;
+}
+.top-bottom {
+  height: 100vh;
+  width: 100%;
+  background-color: #61dafb;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+button {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.animation-button {
+  position: relative;
+  background-color: #efefef;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 60px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.animation-button-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  transform-origin: center left;
+  transition: all 0.5s ease-in-out;
+  background-color: #61dafb;
+}
+
+.animation-button button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
