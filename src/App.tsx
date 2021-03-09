@@ -2,6 +2,7 @@ import React from "react";
 import Loader from "./component/Loader";
 import BackgroundVerticalSlideIn from "./component/BackgroundVerticalSlideIn";
 import BackgroundHorizontalSlideIn from "./component/BackgroundHorizontalSlideIn";
+import BackgroundStretchAnimation from "./component/BackgroundStretchAnimation";
 import "./asset/BackgroundSlideIn.css";
 
 const App: React.FC = () => {
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <BackgroundHorizontalSlideIn direction="right">
           RIGHT
         </BackgroundHorizontalSlideIn>
+        <BackgroundStretchAnimation />
       </div>
       <Loader />
     </div>
